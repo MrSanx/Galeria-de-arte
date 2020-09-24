@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h1>This is a Sign Up page!</h1>
+        <input type="text" id="fullname" name="fullname" placeholder="Name"> <br>
+        <small>We ask that you provide your legal first and last names</small> <br>
+        <input type="text" id="mail" name="mail" placeholder="Email Address"> <br>
+        <input type="text" id="password" name="password" placeholder="Password"> <br>
+        <input type="text" id="confirm" name="confirm" placeholder="Confirm"> <br>
+        <small>Use 8 or more characters with at least 2 numbers.</small>
+        <p>This information is required for your purchases.</p>
+        <!--No sé si dejar el tipo de documento o no poner directamente un documento, puesto que no sé como funcionaria en el extranjero, si los numeros se repiten o tienen codificación universal.-->
+        <p>Document Type <br><select name="documentType" required>
+            <option value="1">CC</option>
+            <option value="2">Something</option>
+            <option value="3">Something</option>
+        </select> </p>
+        <input type="text" id="document" name="document" placeholder="Document"> <br>
+        <!--Toca modificar esto para que exista un formulario estricto, puesto que sería complicado por la variedad de formatos que el usuario podria ingresar.-->
+        <input type="text" id="birth" name="birth" placeholder="Birth"> <br>
+
+
+
+        <input type="submit">
+    </div>
+    <a href="index.html">Sing In!</a>
+</body>
+
+</html>
